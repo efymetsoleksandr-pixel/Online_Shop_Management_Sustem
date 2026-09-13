@@ -52,7 +52,7 @@ erDiagram
     customers ||--o{ orders : "places"
     products ||--o{ order_items : "included_in"
     couriers ||--o{ delliveries : "delivers"
-    orders ||--o{ order_iten=ms : "contains"
+    orders ||--o{ order_items : "contains"
     orders ||--o{ payments : "paid_by"
     orders ||--o{ delliveries : "shipped_via"
 ```
