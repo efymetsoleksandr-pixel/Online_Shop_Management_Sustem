@@ -41,7 +41,7 @@ orders.order_id
 SELECT customer_id,
    COUNT(order_id)
 FROM orders
-   GROUP BY order_id;
+   GROUP BY customer_id;
 SELECT customer_id,
    COUNT(order_id)
 FROM orders
