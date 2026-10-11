@@ -1,3 +1,4 @@
+-- Створення таблиць і заповнення бази даних тестовими даними та створення індексів.
 BEGIN TRANSACTION;
 CREATE TABLE IF NOT EXISTS "couriers" (
 	"courier_id"	INTEGER,
