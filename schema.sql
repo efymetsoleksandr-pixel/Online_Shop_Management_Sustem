@@ -1,3 +1,4 @@
+-- Таблиця клієнтів: зберігає інформацію про клієнтів шнтернет-магазину.
 CREATE TABLE customers (
     customer_id INTEGER PRIMARY KEY,
     first_name TEXT NOT NULL,
@@ -5,17 +6,20 @@ CREATE TABLE customers (
     phone TEXT NOT NULL UNIQUE,
     email TEXT NOT NULL UNIQUE
 );
+-- Таблиця товарів: зберігає інформацію протовари та їхні ціни.
 CREATE TABLE products (
     product_id INTEGER PRIMARY KEY,
     product_name TEXT NOT NULL,
     price REAL NOT NULL
 );
+-- Таблиця кур'єрів: зберігає шформацію про кур'єрів.
 CREATE TABLE couriers (
     courier_id INTEGER PRIMARY KEY,
     first_name TEXT NOT NULL,
     last_name TEXT NOT NULL,
     phone TEXT NOT NULL UNIQUE
 );
+-- Таблиця замовлень: зберігає інформацію про замовлення клієнтів.
 CREATE TABLE orders (
     order_id INTEGER PRIMARY KEY,
     customer_id INTEGER NOT NULL,
@@ -23,6 +27,7 @@ CREATE TABLE orders (
     order_status TEXT NOT NULL,
 FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
+-- Таблиця позицій замовлення: зберігає інформацію про товари в кожному замовленні.
 CREATE TABLE order_items (
     order_item_id INTEGER PRIMARY KEY,
     order_id INTEGER NOT NULL,
@@ -32,6 +37,7 @@ CREATE TABLE order_items (
 FOREIGN KEY (order_id) REFERENCES orders(order_id),
 FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
+-- Таблиця оплат: зберігає інформацію про оплати замовлень.
 CREATE TABLE payments (
     payment_id INTEGER PRIMARY KEY,
     order_id INTEGER NOT NULL,
@@ -40,6 +46,7 @@ CREATE TABLE payments (
     payment_status TEXT NOT NULL,
 FOREIGN KEY (order_id) REFERENCES orders(order_id)
 );
+-- Таблиця доставок: зберігає інформацію про доставку замовлень.
 CREATE TABLE delliveries (
     dellivery_id INTEGER PRIMARY KEY,
     order_id INTEGER NOT NULL,
@@ -50,6 +57,7 @@ CREATE TABLE delliveries (
 FOREIGN KEY (order_id) REFERENCES orders(order_id),
 FOREIGN KEY (courier_id) REFERENCES couriers(courier_id)
 );
+-- Створення індексів для прискорення виконання SQL-запитів.
 CREATE INDEX idx_orders_customer_id ON orders(customer_id);
 CREATE INDEX idx_order_items_order_id ON order_items(order_id);
 CREATE INDEX idx_order_items_product_id ON order_items(product_id);
