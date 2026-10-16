@@ -460,7 +460,7 @@ INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","p
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (98,98,2,2,27.5);
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (99,99,16,1,119.0);
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (100,100,32,2,23.9);
-INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (1,1,'2026-02-21','Shipping');
+INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (1,1,'2026-02-21','Доставка');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (2,2,'2026-04-12','Очікує відправлення');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (3,3,'2026-06-28','Доставлено');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (4,63,'2026-01-10','Доставлено');
