@@ -660,9 +660,9 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (98,98,'2026-10-15',55.0,'Paid');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (99,99,'2026-10-18',119.0,'Paid');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (100,100,'2026-10-21',47.8,'Paid');
-INSERT INTO "products" ("product_id","product_name","price") VALUES (1,'ноутбук',38499.99);
-INSERT INTO "products" ("product_id","product_name","price") VALUES (2,'бездротові_навушники',3549.99);
-INSERT INTO "products" ("product_id","product_name","price") VALUES (3,'принтер',5789.49);
+INSERT INTO "products" ("product_id","product_name","price") VALUES (1,'Laptop',38499.99);
+INSERT INTO "products" ("product_id","product_name","price") VALUES (2,'Wireless Headphones',3549.99);
+INSERT INTO "products" ("product_id","product_name","price") VALUES (3,'Printer',5789.49);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (4,'USB Cable',12.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (5,'Power Bank',39.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (6,'Wireless Charger',24.99);
@@ -671,7 +671,7 @@ INSERT INTO "products" ("product_id","product_name","price") VALUES (8,'Tablet',
 INSERT INTO "products" ("product_id","product_name","price") VALUES (9,'Monitor',189.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (10,'Webcam',59.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (11,'Microphone',89.99);
-INSERT INTO "products" ("product_id","product_name","price") VALUES (12,'Printer',149.99);
+INSERT INTO "products" ("product_id","product_name","price") VALUES (12,'Scaner',149.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (13,'Router',79.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (14,'External Hard Drive',74.99);
 INSERT INTO "products" ("product_id","product_name","price") VALUES (15,'SSD Drive',99.99);
