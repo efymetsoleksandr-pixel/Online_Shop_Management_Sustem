@@ -260,7 +260,7 @@ INSERT INTO "customers" ("customer_id","first_name","last_name","phone","email")
 INSERT INTO "customers" ("customer_id","first_name","last_name","phone","email") VALUES (98,'Ксенія','Морозюк','+380500000098','kseniia.moroziuk098@example.com');
 INSERT INTO "customers" ("customer_id","first_name","last_name","phone","email") VALUES (99,'Ярина','Даниленко','+380500000099','yaryna.danylenko099@example.com');
 INSERT INTO "customers" ("customer_id","first_name","last_name","phone","email") VALUES (100,'Орися','Романюк','+380500000100','orysia.romaniuk100@example.com');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (1,2,2,'м.Київ, вул. Васильківська 22/3','2026-04-15','Очікує відправлення');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (1,2,2,'м.Київ, вул. Васильківська 22/3','2026-04-15','Очікує оплати');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (2,1,3,'м.Рівне, вул. Соборна 253/178','2026-02-24','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (3,3,1,'м.Дніпро, вул. Степана Бандери 1/5','2026-06-10','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (4,4,7,'вул. Соборна 25, Рівне','2026-01-08','Доставлено');
@@ -316,7 +316,7 @@ INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_add
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (54,54,14,'вул. Кафедральна 12, Луцьк','2026-06-08','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (55,55,33,'вул. Володимира Великого 22, Львів','2026-06-11','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (56,56,5,'вул. Соборна 68, Рівне','2026-06-14','Доставлено');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (57,57,17,'вул. Київська 44, Житомир','2026-06-17','Очікує відправлення');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (57,57,17,'вул. Київська 44, Житомир','2026-06-17','Очікує оплати');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (58,58,21,'вул. Січових Стрільців 36, Івано-Франківськ','2026-06-20','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (59,59,30,'вул. Костюшка 25, Львів','2026-06-23','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (60,60,10,'вул. Богоявленська 91, Рівне','2026-06-26','Доставлено');
@@ -350,16 +350,16 @@ INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_add
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (88,88,33,'вул. Городоцька 29, Львів','2026-09-18','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (89,89,5,'вул. Словацького 64, Рівне','2026-09-21','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (90,90,17,'вул. Рильського 21, Луцьк','2026-09-24','Доставлено');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (91,91,21,'вул. Чорновола 37, Львів','2026-09-27','Очікує відправлення');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (91,91,21,'вул. Чорновола 37, Львів','2026-09-27','Очікує оплати');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (92,92,30,'вул. Драгоманова 15, Рівне','2026-09-30','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (93,93,10,'вул. Соборна 73, Луцьк','2026-10-03','Доставлено');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (94,94,24,'вул. Хрещатик 48, Київ','2026-10-06','У дорозі');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (95,95,36,'вул. Шевченка 91, Рівне','2026-10-09','Очікує відправлення');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (96,96,13,'вул. Стрийська 114, Львів','2026-10-12','Очікує відправлення');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (95,95,36,'вул. Шевченка 91, Рівне','2026-10-09','Очікує оплати');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (96,96,13,'вул. Стрийська 114, Львів','2026-10-12','Очікує оплати');
 INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (97,97,29,'вул. Соборна 36, Тернопіль','2026-10-15','У дорозі');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (98,98,2,'вул. Незалежності 52, Івано-Франківськ','2026-10-18','Очікує відправлення');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (99,99,16,'вул. Тараса Шевченка 67, Рівне','2026-10-21','Очікує відправлення');
-INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (100,100,32,'вул. Степана Бандери 145, Львів','2026-10-24','Очікує відправлення');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (98,98,2,'вул. Незалежності 52, Івано-Франківськ','2026-10-18','Очікує оплати');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (99,99,16,'вул. Тараса Шевченка 67, Рівне','2026-10-21','Очікує оплати');
+INSERT INTO "delliveries" ("dellivery_id","order_id","courier_id","dellivery_address","dellivery_date","dellivery_status") VALUES (100,100,32,'вул. Степана Бандери 145, Львів','2026-10-24','Очікує оплати');
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (1,1,2,2,7099.98);
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (2,2,3,1,5789.49);
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (3,3,1,4,153999.96);
@@ -461,7 +461,7 @@ INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","p
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (99,99,16,1,119.0);
 INSERT INTO "order_items" ("order_item_id","order_id","product_id","quantity","price") VALUES (100,100,32,2,23.9);
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (1,1,'2026-02-21','Доставка');
-INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (2,2,'2026-04-12','Очікує відправлення');
+INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (2,2,'2026-04-12','Очікує оплати');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (3,3,'2026-06-28','Доставлено');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (4,63,'2026-01-10','Доставлено');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (5,25,'2026-01-12','Обробляється');
@@ -560,7 +560,7 @@ INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALU
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (98,75,'2026-07-17','Доставлено');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (99,100,'2026-07-19','Обробляється');
 INSERT INTO "orders" ("order_id","customer_id","order_date","order_status") VALUES (100,57,'2026-07-21','Доставлено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (1,2,'2026-04-12',7099.98,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (1,2,'2026-04-12',7099.98,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (2,1,'2026-02-21',7099.98,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (3,3,'2026-06-28',153999.96,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (4,4,'2026-01-06',49.98,'Оплачено');
@@ -580,7 +580,7 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (18,18,'2026-02-17',59.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (19,19,'2026-02-20',159.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (20,20,'2026-02-23',68.97,'Оплачено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (21,21,'2026-02-26',49.9,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (21,21,'2026-02-26',49.9,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (22,22,'2026-03-01',129.98,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (23,23,'2026-03-04',249.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (24,24,'2026-03-07',63.98,'Оплачено');
@@ -599,7 +599,7 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (37,37,'2026-04-15',179.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (38,38,'2026-04-18',268.5,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (39,39,'2026-04-21',29.98,'Оплачено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (40,40,'2026-04-24',129.0,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (40,40,'2026-04-24',129.0,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (41,41,'2026-04-27',39.9,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (42,42,'2026-04-30',119.98,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (43,43,'2026-05-03',12.5,'Не вдалося оплатити');
@@ -616,7 +616,7 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (54,54,'2026-06-05',99.8,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (55,55,'2026-06-08',64.99,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (56,56,'2026-06-11',498.0,'Оплачено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (57,57,'2026-06-14',31.99,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (57,57,'2026-06-14',31.99,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (58,58,'2026-06-17',297.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (59,59,'2026-06-20',17.5,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (60,60,'2026-06-23',89.98,'Оплачено');
@@ -631,7 +631,7 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (69,69,'2026-07-20',24.99,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (70,70,'2026-07-23',537.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (71,71,'2026-07-26',89.5,'Оплачено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (72,72,'2026-07-29',29.98,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (72,72,'2026-07-29',29.98,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (73,73,'2026-08-01',129.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (74,74,'2026-08-04',119.7,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (75,75,'2026-08-07',59.99,'Оплачено');
@@ -650,7 +650,7 @@ INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (88,88,'2026-09-15',129.98,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (89,89,'2026-09-18',249.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (90,90,'2026-09-21',95.97,'Оплачено');
-INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (91,91,'2026-09-24',99.0,'Очікує відправлення');
+INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (91,91,'2026-09-24',99.0,'Очікує оплати');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (92,92,'2026-09-27',35.0,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (93,93,'2026-09-30',44.99,'Оплачено');
 INSERT INTO "payments" ("payment_id","order_id","payment_date","amount","payment_status") VALUES (94,94,'2026-10-03',110.0,'Оплачено');
